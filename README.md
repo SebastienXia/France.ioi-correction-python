@@ -15,7 +15,7 @@ Corrected exercise from france ioi python.
 ## Table of Contents
 
 1. [Introduction](#france-intro)
-1. [Level 1](#Level_1)
+1. [✧ LEVEL 1 ✧](#Level_1)
 1. [Level 1-1 – Text display, sequence of instructions](#1-1)
 1. [Level 1-2 – Repetitions of instructions](#1-2)
 1. [Level 1-3 – Calculations and discovery of variables](#1-3)
