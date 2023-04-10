@@ -19,22 +19,22 @@ Corrected exercise from france ioi python.
 
 <a id="france-intro"></a>
 
-### [Introduction](#france-intro)
+# [Introduction](#france-intro)
 
 <p> I put you all the corrections of the python exercises of france.ioi! Hope this helps you. <br/> PS: I did the exercises with the <b>French language</b> and try to understand instead of doing ctrl+C / ctrl+V </p>
 
 <a id="Level_1"></a>
 
-## [LEVEL 1](#Level_1)
+# [LEVEL 1](#Level_1)
 
-### 1 – Affichage de texte, suite d'instructions
+## 1 – Text display, sequence of instructions
 <ul>
-  <li> 1) Hello world! </li>
+  <li> <b> 1) Hello world! </b> </li>
   
 ```
 print("Hello world!")
 ```
-  <li> 2) Presentation </li>
+  <li> <b> 2) Presentation </b> </li>
   
 ```
 print("Coucou !")
@@ -42,7 +42,7 @@ print("Je m'appelle Camthalion")
 print("Ma devise est 'Parler peu mais parler bien'.")
 ```
   
-  <li> 3) Map of the mountain </li>
+  <li> <b> 3) Map of the mountain </b> </li>
   
 ```
 print("Tout droit tu grimperas,")
@@ -51,7 +51,7 @@ print("Habile tu seras,")
 print("Quand tu les porteras,")
 print("Et avec le chef tu reviendras !")
 ```
-  <li> 4) In the thicket </li>
+  <li> <b> 4) In the thicket </b> </li>
   
 ```
 from robot import *
@@ -64,7 +64,7 @@ bas()
 bas()
 droite()
 ```
-  <li> 5) Stack of cylinders <li>
+  <li> <b> 5) Stack of cylinders </b> <li>
   
 ```
 deplacer(1, 3)
@@ -103,7 +103,7 @@ deplacer(1, 2)
 deplacer(1, 3)
 deplacer(2, 3)
 ```
-  <li> 6) Secret recipe </li>
+  <li> <b> 6) Secret recipe </b> </li>
   
 ```
 from robot import *
@@ -115,4 +115,9 @@ transferer(5, 3)
 remplir(5)
 transferer(5, 3)
 ```
+</ul>
+
+## 2 – Repetitions of instructions
+<ul>
+  <li>Come Soon...</li>
 </ul>
