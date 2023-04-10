@@ -1,4 +1,4 @@
-# Enlever les triple guillemets """ [texte] """ pour que le code ne soit plus en commentaire !
+# ⚠️ Enlever les triple guillemets """ [texte] """ pour que le code ne soit plus en commentaire ! ⚠️
 
                                         # Niveau 1
 
@@ -104,3 +104,4 @@ transferer(5, 3)
 
 """
                     # 2 – Répétitions d'instructions.
+
