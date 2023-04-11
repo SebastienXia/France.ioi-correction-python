@@ -11,15 +11,15 @@ Corrected exercise from france ioi python.
 
 ## 📋 Table of Contents
 
-1. [✧ LEVEL 1 ✧](#Level_1)
-1. [Level 1-1 – Text display, sequence of instructions](#1-1)
-1. [Level 1-2 – Repetitions of instructions](#1-2)
-1. [Level 1-3 – Calculations and discovery of variables](#1-3)
-1. [Level 1-4 – Reading the entry](#1-4)
-1. [Level 1-5 – Tests and requirements](#1-5)
-1. [Level 1-6 – Advanced structures](#1-6)
-1. [Level 1-7 – Advanced conditions, Boolean operators](#1-7)
-1. [Level 1-8 – Conditioned repetitions](#1-8)
+- [✧ LEVEL 1 ✧](#Level_1)
+  - [Level 1-1 – Text display, sequence of instructions](#1-1)
+  - [Level 1-2 – Repetitions of instructions](#1-2)
+  - [Level 1-3 – Calculations and discovery of variables](#1-3)
+  - [Level 1-4 – Reading the entry](#1-4)
+  - [Level 1-5 – Tests and requirements](#1-5)
+  - [Level 1-6 – Advanced structures](#1-6)
+  - [Level 1-7 – Advanced conditions, Boolean operators](#1-7)
+  - [Level 1-8 – Conditioned repetitions](#1-8)
 
 <a id="Level_1"></a>
 
