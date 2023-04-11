@@ -33,5 +33,10 @@ Python ↴
 ✦ Level 5 (soon)
 ✦ Level 6 (soon)
 ```
+<div align = right>
+
+![dev-removebg-preview](https://user-images.githubusercontent.com/105004912/231301030-52a0268a-cb7d-4a77-8017-76ecf4f73777.png)
+
+</div>
 
 ## BY SEBASTIEN XIA
