@@ -24,7 +24,7 @@ Corrected exercise from france ioi python.
 
 # [Introduction](#france-intro)
 
-<p> I put you all the corrections of the python exercises of france.ioi! Hope this helps you. <br/> PS: I did the exercises with the <b>French language</b> and try to understand instead of doing ctrl+C / ctrl+V </p>
+<p> I put you all my corrections of the python exercises of france.ioi! Hope this helps you. <br/> PS: I did the exercises with the <b>French language</b> and try to understand instead of doing ctrl+C / ctrl+V </p>
 
 <a id="Level_1"></a>
 
@@ -254,5 +254,130 @@ for finish in range(9):
 ## [3 – Calculations and discovery of variables](#1-3)
 
 <ul>
-  <li> Coming Soon </li>
+  <li> <b> 1) Answer! </b> </li>
+  
+```
+print(42)
+```
+  <li> <b> 2) The eclipse </b> </li>
+  
+```
+print(12581 - 11937)
+```
+  <li> <b> 3) Candy for everyone! </b> </li>
+  
+```
+print((25 + 30 + 27 + 22 - 8) * 3) 
+```
+  <li> <b> 4) Algoreathlon </b> </li>
+  
+```
+a = 2
+b = 34
+c = 6
+
+print((a + b + c), end =" ")
+print((a + b + c) * 2, end =" ")
+print((a + b + c) * 3, end =" ")
+```
+  <li> <b> 5) Playground </b> </li>
+  
+```
+c = 108
+
+print(c * 108)
+print(c * 4)
+```
+  <li> <b> 6) A game of hide and seek </b> </li>
+  
+```
+for loop in range(100):
+   print(loop + 1)
+print("J'arrive !")
+```
+  <li> <b> 7) Progress by error </b> </li>
+  
+```
+print("V")
+print("V")
+print("I")
+print("I")
+print("V")
+print("I")
+print("I")
+```
+  <li> <b> 8) Rocket take off </b> </li>
+  
+```
+for comptage in range(100,-1,-1):
+   print(comptage)
+print("Décollage !")
+```
+  <li> <b> 9) Invasion of batrachians </b> </li>
+  
+```
+crapauds = 1337
+
+for loop in range(12):
+   crapauds = crapauds * 2
+print(crapauds)
+```
+  <li> <b> 10) Fair </b> </li>
+  
+```
+tir = 1
+bonbon = 0
+
+for loop in range(50):
+   bonbon = bonbon + tir
+   print(bonbon)
+   tir = tir + 1
+
+```
+  <li> <b> 11) Race with the kids </b> </li>
+  
+```
+from robot import *
+
+i = 1               # compteur.
+n = 1    
+           # nombre de fois gauche/droite.
+while i < 11:         # boucle (while) tourne 10 fois.
+   for y in range(n):
+      droite()
+   for e in range(1):
+      ramasser()
+   for y in range(n):
+      gauche()
+   for e in range(1):
+      deposer()
+
+   n += 1
+   i += 1
+```
+  <li> <b> 12) Construction of a pyramid </b> </li>
+  
+```
+c = 0
+
+for i in range(1):
+   c = 17**3
+   c = c + 15**3
+   c = c + 13**3 
+   c = c + 11**3
+   c = c + 9**3
+   c = c + 7**3
+   c = c + 5**3
+   c = c + 3**3
+   c = c + 1**3
+print(c)
+```
+  <li> <b> 13) Multiplication table </b> </li>
+  
+```
+for j in range(1, 21):
+   for c in range(1, 21):
+      print(j * c, end= ' ')
+   print()
+```
 </ul>
