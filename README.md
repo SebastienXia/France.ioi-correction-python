@@ -1,5 +1,5 @@
 # france_ioi_correction_python
-Corrected exercise from france ioi python.
+<br>
 
 <div align="center">
   <picture>
