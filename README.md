@@ -19,6 +19,7 @@ Corrected exercise from france ioi python.
 1. [Level 1-1 – Text display, sequence of instructions](#1-1)
 1. [Level 1-2 – Repetitions of instructions](#1-2)
 1. [Level 1-3 – Calculations and discovery of variables](#1-3)
+1. [Level 1-4 – Reading the entry](#1-4)
 
 <a id="france-intro"></a>
 
@@ -379,5 +380,107 @@ for j in range(1, 21):
    for c in range(1, 21):
       print(j * c, end= ' ')
    print()
+```
+</ul>
+
+<a id="1-4"></a>
+
+## [4 – Reading the entry](#1-4)
+
+<ul> 
+
+  <li> <b> 1) Harvests </b> </li>
+  
+```
+lg = int(input(""))
+
+mc = 23 * lg * lg
+print(mc)     
+```
+  <li> <b> 2) Spiritual retreat </b> </li>
+  
+```
+jours = int(input())
+nombreH = jours * 16
+nombreM = nombreH * 60
+nombreS = nombreM * 60
+print (nombreS)
+```
+  <li> <b> 3) Age of grandchildren </b> </li>
+  
+```
+ageCadet = int(input())
+
+ageAine = int(input())
+
+difference = ageAine - ageCadet
+
+print(difference)
+```
+  <li> <b> 4) More punishments </b> </li>
+  
+```
+x = int(input())
+for i in range(x):
+    print("Je dois suivre en cours")
+```
+  <li> <b> 5) Graduation of thermometers </b> </li>
+  
+```
+tempMin = int(input())
+tempMax = int(input())
+for i in range(tempMin, tempMax+1):
+    print(i)
+```
+  <li> <b> 6) Mental math game </b> </li>
+  
+```
+tempMin = int(input())
+tempMax = int(input())
+for i in range(tempMin, tempMax+1):
+    print(i)
+```
+  <li> <b> 7) The Great Sale </b> </li>
+  
+```
+positionDepart = int(input())
+largeurEmplacement = int(input())
+nbVendeurs = int(input())
+
+for i in range(nbVendeurs + 1):
+    print(positionDepart + largeurEmplacement * i)
+```
+  <li> <b> 8) Livestock </b> </li>
+
+```
+nbkarvas = 0
+for i in range(20):
+    nbkarvas = nbkarvas + int(input())
+print(nbkarvas)
+```
+  <li> <b> 9) Pedestals for statues </b> </li>
+  
+```
+socle = 0
+largeursol = int(input())
+largeurface = int(input())
+
+for i in range(largeurface, largeursol + 1):
+    etage = i * i
+    socle += etage
+
+print(socle)
+```
+  <li> <b> 10) The most beautiful Karva </b> </li>
+  
+```
+nbkarvascomp = int(input()) # nombres de karvas
+
+for i in range(nbkarvascomp): # 
+   poinds = int(input())
+   age = int(input())
+   long_des_cornes = int(input())
+   hauteur_au_garot = int(input())
+   print(long_des_cornes * hauteur_au_garot + poinds)
 ```
 </ul>
