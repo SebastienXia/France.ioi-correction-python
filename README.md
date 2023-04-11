@@ -28,6 +28,10 @@
 Python ↴
 ✦ Level 1
 ✦ Level 2 (soon)
+✦ Level 3 (soon)
+✦ Level 4 (soon)
+✦ Level 5 (soon)
+✦ Level 6 (soon)
 ```
 
 ## BY SEBASTIEN XIA
