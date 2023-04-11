@@ -20,6 +20,10 @@ Corrected exercise from france ioi python.
 1. [Level 1-2 – Repetitions of instructions](#1-2)
 1. [Level 1-3 – Calculations and discovery of variables](#1-3)
 1. [Level 1-4 – Reading the entry](#1-4)
+1. [Level 1-5 – Tests and requirements](#1-5)
+1. [Level 1-6 – Advanced structures](#1-6)
+1. [Level 1-7 – Advanced conditions, Boolean operators](#1-7)
+1. [Level 1-8 – Conditioned repetitions](#1-8)
 
 <a id="france-intro"></a>
 
@@ -483,4 +487,250 @@ for i in range(nbkarvascomp): #
    hauteur_au_garot = int(input())
    print(long_des_cornes * hauteur_au_garot + poinds)
 ```
+</ul>
+
+<a id="1-5"></a>
+
+## [5 – Tests and requirements](#1-5)
+
+<ul>
+  <li> <b> 1) Baggage transportation </b> </li>
+  
+```
+nbpaquets = int(input())
+poids_paquets = int(input())
+poids_total = nbpaquets * poids_paquets
+
+if  poids_total > 105:
+   print("Surcharge ! ")
+```
+  <li> <b> 2) Kilometer markers </b> </li>
+  
+```
+debutnombre = int(input())
+finnombre = int(input())
+
+if finnombre - debutnombre >= 0:
+   print(finnombre - debutnombre)
+elif debutnombre - finnombre >= 0:
+   print(debutnombre - finnombre)
+```
+  <li> <b> 3) Decreasing prices </b> </li>
+  
+```
+heure_arrivé = int(input())
+
+list_prix = [10, 15, 20, 25, 30, 35, 40, 45, 50, 53, 53, 53, 53]
+
+if heure_arrivé == heure_arrivé:
+   print(list_prix[heure_arrivé])
+```
+  <li> <b> 4) All-out brawl </b> </li>
+  
+```
+supArignon = int(input())
+supEvaran = int(input())
+
+if supArignon - supEvaran > 10:
+   print("La famille Arignon a un champ trop grand")
+elif supEvaran - supArignon > 10:
+   print("La famille Evaran a un champ trop grand")
+```
+  <li> <b> 5) Boat price </b> </li>
+  
+```
+age_personne = int(input())
+
+if age_personne >= 21:
+   print("Tarif plein") 
+elif age_personne < 21:
+   print("Tarif réduit")
+```
+  <li> <b> 6) Crossing the bridge </b> </li>
+  
+```
+de_1 = int(input())
+de_2 = int(input())
+
+somme_de = de_1 + de_2
+
+if somme_de >= 10:
+   print("Taxe spéciale !")
+   print(36)
+else:
+   print("Taxe régulière")
+   print(de_1 * 2 + de_2 * 2)
+```
+  <li> <b> 7) Tug of war contest </b> </li>
+  
+```
+nbMembres = int(input())
+
+equipe_1 = 0
+equipe_2 = 0
+
+for i in range(nbMembres):
+    equipe_1 += int(input())
+    equipe_2 += int(input())
+
+if equipe_1 > equipe_2:
+    print("L'équipe 1 a un avantage")
+else:
+    print("L'équipe 2 a un avantage")
+print("Poids total pour l'équipe 1 :", equipe_1)
+print("Poids total pour l'équipe 2 :", equipe_2)
+```
+  <li> <b> 8) Village password </b> </li>
+  
+```
+secre_code = int(input())
+
+if secre_code == 64741:
+    print("Bon festin !")
+
+if secre_code != 64741:
+    print("Allez-vous en !")
+```
+
+</ul>
+
+<a id="1-6"></a>
+
+## [6 – Advanced structures](#1-6)
+
+<ul>
+  
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  
+</ul>
+
+<a id="1-7"></a>
+
+## [7 – Advanced conditions, Boolean operators](#1-6)
+
+<ul>
+
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+
+</ul>
+
+<a id="1-8"></a>
+
+## [8 – Conditioned repetitions](#1-8)
+
+<ul>
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  <li> <b> </b> </li>
+  
+```
+
+```
+  
 </ul>
