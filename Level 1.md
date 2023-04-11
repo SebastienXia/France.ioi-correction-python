@@ -1,4 +1,4 @@
-# France ioi Correction Python
+# ✔️ France ioi Correction Python
 Corrected exercise from france ioi python.
 
 <div align="center">
@@ -9,7 +9,7 @@ Corrected exercise from france ioi python.
 
 <br/>
 
-## Table of Contents
+## 📋 Table of Contents
 
 1. [✧ LEVEL 1 ✧](#Level_1)
 1. [Level 1-1 – Text display, sequence of instructions](#1-1)
