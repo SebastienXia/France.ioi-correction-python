@@ -1,4 +1,4 @@
-# France ioi Correction Python
+# ✔️ France ioi Correction Python
 <br/>
 
 <div align="center">
@@ -20,6 +20,12 @@
 
 <p> I put you all my corrections of the python exercises of france.ioi! Hope this helps you. <br/> PS: I did the exercises with the <b>French language</b> and try to understand instead of doing ctrl+C / ctrl+V </p>
 
-<br/>
+# Contained
+
+```
+Python ↴
+✦ Level 1
+✦ Level 2 (soon)
+```
 
 ## BY SEBASTIEN XIA
