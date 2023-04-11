@@ -1,4 +1,4 @@
-# france_ioi_correction_python
+# France ioi Correction Python
 Corrected exercise from france ioi python.
 
 <div align="center">
