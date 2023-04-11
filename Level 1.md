@@ -590,47 +590,135 @@ if secre_code != 64741:
 
 <ul>
   
-  <li> <b> </b> </li>
+  <li> <b> 1) Towns and villages </b> </li>
   
+```
+nblieux = int(input())
+villes = 0
+
+for i in range(nblieux):
+    nbpopulation = int(input())
+    if nbpopulation > 10000:
+        villes += 1
+print(villes)
+```
+  <li> <b> 2) Schedule for the day </b> </li>
+  
+```
+posactuelle = int(input())
+nbvillages = int(input())
+villagesproche = 0
+
+for i in range(nbvillages):
+    posvillages = int(input())
+    distance = posactuelle - posvillages
+    if  abs(distance) <= 50:
+        villagesproche += 1
+print(villagesproche)
+```
+  <li> <b> 3) Longest stage </b> </li>
+  
+```
+nbjourdemarche = (int(input()))
+maxdistance = 0
+
+for i in range(nbjourdemarche):
+    distanceparcouru = int(input())
+    if maxdistance < distanceparcouru:
+        maxdistance = distanceparcouru
+        
+print(maxdistance)
+```
+  <li> <b> 4) Calculation of height differences </b> </li>
+  
+```
+nbmonte_descend = int(input())
+variation_altitude_descente = 0
+variation_altitude_descente_pos = 0
+variation_altitude_montante = 0
+
+for i in range(nbmonte_descend):
+    variation_altitude = int(input())
+    if variation_altitude > 0:
+        variation_altitude_montante += variation_altitude
+    elif variation_altitude < 0:
+        variation_altitude_descente += variation_altitude
+        variation_altitude_descente_pos = abs(variation_altitude_descente)
+
+print(variation_altitude_montante)
+print(variation_altitude_descente_pos)
+```
+  <li> <b> 5) Type of trees </b> </li>
+  
+```
+hauteur = int(input())
+nbfolioles = int(input())
+
+if hauteur <= 5 and nbfolioles >= 8:
+    print("Tinuviel")
+elif hauteur >= 10 and nbfolioles >= 10:
+    print("Calaelen")
+elif hauteur <= 8 and nbfolioles <= 5:
+    print("Falarion")
+elif  hauteur >= 12 and nbfolioles <= 7:
+    print("Dorthonion")
+```
+  <li> <b> 6) Hostel prices </b> </li>
+  
+```
+age = int(input())
+poid = int(input())
+
+if age == 60:
+    print(0)
+elif age < 10:
+    print(5)
+else:
+    if poid >= 20:
+        print(30 + 10)
+    else: 
+        print(30)
+```
+  <li> <b> 7) Protection of the village </b> </li>
+  
+```
+nbmaisons = int(input())
+pos_x_min = 1000000
+pos_y_min = 1000000
+pos_x_max = 0
+pos_y_max = 0
+
+for i in range(nbmaisons):
+    pos_x = int(input())
+    pos_y = int(input())
+    if pos_x < pos_x_min:
+        pos_x_min = pos_x
+    if pos_x > pos_x_max:
+        pos_x_max = pos_x
+
+    if pos_y < pos_y_min:
+        pos_y_min = pos_y
+    if pos_y > pos_y_max:
+        pos_y_max = pos_y
+
+print(2 * (pos_x_max - pos_x_min + pos_y_max - pos_y_min))
+```
+  <li> <b> 8) The right price </b> </li>
+  
+```
+nbMarchands = int(input())
+minPrix = 1000 * 1000
+posMinPrix = -1
+pos = 1
+for loop in range(nbMarchands):
+   prix = int(input())
+   if prix <= minPrix:
+      minPrix = prix
+      posMinPrix = pos
+   pos = pos + 1
+print(posMinPrix)
 ```
 
-```
-  <li> <b> </b> </li>
-  
-```
-
-```
-  <li> <b> </b> </li>
-  
-```
-
-```
-  <li> <b> </b> </li>
-  
-```
-
-```
-  <li> <b> </b> </li>
-  
-```
-
-```
-  <li> <b> </b> </li>
-  
-```
-
-```
-  <li> <b> </b> </li>
-  
-```
-
-```
-  <li> <b> </b> </li>
-  
-```
-
-```
-  
 </ul>
 
 <a id="1-7"></a>
@@ -639,52 +727,52 @@ if secre_code != 64741:
 
 <ul>
 
-  <li> <b> </b> </li>
+  <li> <b> 1) Alien Spy </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 2) Spy House </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 3) Number of days in the month </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 4) Friendship between guards </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 5) Number of people at the party </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 6) Fire stations </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 7) Missing person </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 8) The Big Party </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 9) The spy is unmasked! </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 10) Color areas </b> </li>
   
 ```
 
@@ -697,34 +785,32 @@ if secre_code != 64741:
 ## [8 – Conditioned repetitions](#1-8)
 
 <ul>
-  <li> <b> </b> </li>
+  <li> <b> 1) Department of Medicine: control of an epidemic </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 2) Administration: annual accounts </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 3) Department of Pedagogy: "it's more, it's less" </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 4) Department of Architecture: construction of a pyramid </b> </li>
   
 ```
 
 ```
-  <li> <b> </b> </li>
+  <li> <b> 5) Department of chemistry: explosive mixture </b> </li>
   
 ```
 
 ```
   
 </ul>
-
-
 
 ## BY SEBASTIEN XIA
