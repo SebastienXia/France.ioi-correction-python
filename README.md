@@ -1,42 +1,18 @@
-# ✔️ France ioi Correction Python
-<br/>
+# Correction All France IOI Python Exercises ✔️🐍
 
-<div align="center">
-  <picture>
-    <img src="https://www.france-ioi.org/dataSite/img/logo.png" alt="france_ioi_logo">
-  </picture>
-</div>
+![GitHub](https://img.shields.io/github/license/SebastienXia/France.ioi-correction-python) 
 
-<br/>
+Welcome to the open source repository where you will find all the patches for <a href = "https://www.france-ioi.org/"> France ioi </a> python exercises made by myself! <i> I advise you not to just copy and paste but try your best to understand the code before copying and pasting it. </i> </br> </br>
+PS: I did my exercises in French so if you see French phrases/words and need to modify them, modify them...
+## Contained 📥
 
-# 👨‍💻 All corrected python exercises 🐍
-<br/>
+> Click on the level you want !
 
-
-
-<a id="france-intro"></a>
-
-# Introduction
-
-<p> I put you all my corrections of the python exercises of france.ioi! Hope this helps you. <br/> PS: I did the exercises with the <b>French language</b> and try to understand instead of doing ctrl+C / ctrl+V </p>
-
-🔗 <a href="https://www.france-ioi.org/">France ioi</a>
-
-# Contained
-
-```
-Python ↴
-✦ Level 1
-✦ Level 2 (soon)
-✦ Level 3 (soon)
-✦ Level 4 (soon)
-✦ Level 5 (soon)
-✦ Level 6 (soon)
-```
-<div align = right>
-
-![dev-removebg-preview](https://user-images.githubusercontent.com/105004912/231301030-52a0268a-cb7d-4a77-8017-76ecf4f73777.png)
-
-</div>
+- <a href = "https://github.com/SebastienXia/France.ioi-correction-python/blob/main/Levels/Level%201.md"> Level 1 </a> </br>
+- <a href = "https://github.com/SebastienXia/France.ioi-correction-python/blob/main/Levels/Level%202.md"> Level 2 </a> </br>
+- <a href = "https://github.com/SebastienXia/France.ioi-correction-python/blob/main/Levels/Level%203.md"> Level 3 </a> </br>
+- <a href = "https://github.com/SebastienXia/France.ioi-correction-python/blob/main/Levels/Level%204.md"> Level 4 </a> </br>
+- <a href = "https://github.com/SebastienXia/France.ioi-correction-python/blob/main/Levels/Level%205.md"> Level 5 </a> </br>
+- <a href = "https://github.com/SebastienXia/France.ioi-correction-python/blob/main/Levels/Level%206.md"> Level 6 </a>
 
 ## BY SEBASTIEN XIA
