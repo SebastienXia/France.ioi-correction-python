@@ -808,10 +808,26 @@ print(posMinPrix)
   <li> <b> 5) Department of chemistry: explosive mixture </b> </li>
   
 ```
+nbtotomesure = int(input())
+temperatuemin = int(input())
+maxautorise = int(input())
+i = 0
 
+while i < nbtotomesure:
+    temp = int(input())
+    if temp < temperatuemin or temp > maxautorise:
+        print("Alerte !!")
+        break
+    else:
+        print("Rien à signaler")
+    i += 1
 ```
   
 </ul>
+
+> Well done you have finished level 1 !! 
+<a href = "https://github.com/SebastienXia/France.ioi-correction-python/blob/main/Levels/Level%202.md" > Level 2 </a>
+
 
 ## BY SEBASTIEN XIA
 
