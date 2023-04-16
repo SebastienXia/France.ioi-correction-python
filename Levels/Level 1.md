@@ -951,8 +951,4 @@ while i < nbtotomesure:
   
 </ul>
 
-<div align="right">
-    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
-</div>
-
 ## BY SEBASTIEN XIA
