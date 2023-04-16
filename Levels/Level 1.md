@@ -730,27 +730,84 @@ print(posMinPrix)
   <li> <b> 1) Alien Spy </b> </li>
   
 ```
+date_debut = int(input())
+date_fin = int(input())
 
+nbEntrees = int(input())
+
+nb_de_personne_entree = 0
+
+for personne in range(nbEntrees):
+    date = int(input())
+
+    if date >= date_debut and date <= date_fin:
+        nb_de_personne_entree += 1
+
+print(nb_de_personne_entree)
 ```
   <li> <b> 2) Spy House </b> </li>
   
 ```
+abs_min = int(input())
+abs_max = int(input())
+ord_min = int(input())
+ord_max = int(input())
 
+nombre_ttl_maison = int(input())
+
+maisons_dans_la_zone = 0
+
+for maison in range(nombre_ttl_maison):
+    abs = int(input())
+    ord = int(input())
+    
+    if abs >= abs_min and abs <= abs_max and ord >= ord_min and ord <= ord_max:
+        maisons_dans_la_zone += 1
+
+print(maisons_dans_la_zone)
 ```
   <li> <b> 3) Number of days in the month </b> </li>
   
 ```
+mois = int(input())
+
+if mois >= 1 and mois <= 3 or mois >= 7 and mois <=9:         # tranche de mois | 1 to 3 - 7 to 9.
+    print(30)
+elif mois >= 4 and mois <= 6 or mois == 10:         # tranche de mois | 4 to 6 - 10.
+    print(31)
+else:                                                # si tout est faux print 29.
+    print(29)        
 
 ```
   <li> <b> 4) Friendship between guards </b> </li>
   
 ```
+date_debut_sld1 = int(input())
+date_fin_sld1 = int(input())
 
+date_debut_sld2 = int(input())
+date_fin_sld2 = int(input())
+
+if date_fin_sld1 < date_debut_sld2 or date_fin_sld2 < date_debut_sld1:
+    print("Pas amis")
+else:
+    print("Amis")
 ```
   <li> <b> 5) Number of people at the party </b> </li>
   
 ```
-
+nbPersonnes = int(input())
+nbMax = 0
+nbActuel = 0
+for loop in range(nbPersonnes * 2):
+   numero = int(input())
+   if numero > 0:
+      nbActuel = nbActuel + 1
+   else:
+      nbActuel = nbActuel - 1
+   if nbActuel > nbMax:
+      nbMax = nbActuel
+print(nbMax)
 ```
   <li> <b> 6) Fire stations </b> </li>
   
@@ -788,22 +845,62 @@ print(posMinPrix)
   <li> <b> 1) Department of Medicine: control of an epidemic </b> </li>
   
 ```
+x = int(input())
+malade = 1
+jour = 1
 
+while malade < x:
+   malade = malade * 3
+   jour += 1
+   
+print(jour)
 ```
   <li> <b> 2) Administration: annual accounts </b> </li>
   
 ```
+somme = 0
+T = True
 
+while T:
+   x = int(input())
+   if x == -1:
+      T = False
+   else:
+      somme = somme + x
+print(somme)
 ```
   <li> <b> 3) Department of Pedagogy: "it's more, it's less" </b> </li>
   
 ```
+nbessai = 0
+nbtrouve = int(input())
+nbjoueur = None
+               
+while nbjoueur != nbtrouve:
+    nbjoueur = int(input())
+    nbessai += 1
+    if nbjoueur < nbtrouve:
+        print("c'est plus")
+    elif nbjoueur > nbtrouve:
+        print("c'est moins")
 
+print("Nombre d'essais nécessaires :")
+print(nbessai)
 ```
   <li> <b> 4) Department of Architecture: construction of a pyramid </b> </li>
   
 ```
+nbmaxpierres = int(input())
 
+hauteur = 0
+nbpierres = 0
+
+while nbpierres + (hauteur + 1) ** 2 <= nbmaxpierres:
+    hauteur += 1
+    nbpierres += hauteur ** 2
+    
+print(hauteur)
+print(nbpierres)
 ```
   <li> <b> 5) Department of chemistry: explosive mixture </b> </li>
   
