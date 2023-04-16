@@ -951,4 +951,11 @@ while i < nbtotomesure:
   
 </ul>
 
+<div align="right">
+    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
+</div>
+
+> Well done you have finished level 1 !! 
+<a href = "https://github.com/SebastienXia/France.ioi-correction-python/blob/main/Levels/Level%202.md" > Level 2 </a>
+
 ## BY SEBASTIEN XIA
