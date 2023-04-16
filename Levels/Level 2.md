@@ -16,7 +16,7 @@ Corrected exercise from france ioi python.
   - [Level 2-1 – Decimal numbers and other tools](#2-1)
     - [A – Make roundings (lower and upper)](#A-2-1)
     - [B – Make roundings (to nearest)](#B-2-1)
-    - [C – Basic Arithmetic](C-2-1)
+    - [C – Basic Arithmetic](#C-2-1)
   - [Level 2-2 – Discovery of the paintings](#2-2)
   - [Level 2-3 – Character strings](#2-3)
   - [Level 2-4 – Functions](#2-4)
@@ -75,7 +75,7 @@ print("Hello World level 2 coming soon"
 
 ```
 <a id ="C-2-1"></a>
-## [C – Basic Arithmetic](C-2-1)
+## [C – Basic Arithmetic](#C-2-1)
 - <b> C - 1) Purchase of books </b>
 
 ```
