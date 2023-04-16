@@ -1,4 +1,4 @@
 print("Welcome to France.ioi-correction-python")
-print("Hello World")
+print("Enjoy")
 
 # By Sebastien Xia
