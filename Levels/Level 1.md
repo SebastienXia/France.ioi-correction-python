@@ -855,12 +855,31 @@ for loop in range(nbPaires):
   <li> <b> 7) Missing person </b> </li>
   
 ```
-
+numeroPersonne = int(input())
+tailleListe = int(input())
+estSorti  = False
+for loop in range(tailleListe):
+   numero = int(input())
+   if numero == numeroPersonne:
+      estSorti = True
+if estSorti:
+   print("Sorti de la ville")
+else:
+   print("Encore dans la ville")
 ```
   <li> <b> 8) The Big Party </b> </li>
   
 ```
-
+espionDebut = int(input())
+espionFin = int(input())
+nbInvites = int(input())
+nbSuspects = 0
+for loop in range(nbInvites):
+   debut = int(input())
+   fin = int(input())
+   if not( (espionFin < debut) or (fin < espionDebut) ):
+      nbSuspects = nbSuspects + 1
+print(nbSuspects)
 ```
   <li> <b> 9) The spy is unmasked! </b> </li>
   
