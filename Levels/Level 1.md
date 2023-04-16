@@ -9,6 +9,7 @@ Corrected exercise from france ioi python.
 
 <br/>
 
+<a id= table_contents></a>
 ## 📋 Table of Contents
 
 - [✧ LEVEL 1 ✧](#Level_1)
@@ -116,6 +117,10 @@ remplir(5)
 transferer(5, 3)
 ```
 </ul>
+
+<div align="right">
+    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
+</div>
 
 <a id="1-2"></a>
 
@@ -243,6 +248,10 @@ for finish in range(9):
    gauche()
 ```
 </ul>
+
+<div align="right">
+    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
+</div>
 
 <a id="1-3"></a>
 
@@ -377,6 +386,10 @@ for j in range(1, 21):
 ```
 </ul>
 
+<div align="right">
+    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
+</div>
+
 <a id="1-4"></a>
 
 ## [4 – Reading the entry](#1-4)
@@ -478,6 +491,10 @@ for i in range(nbkarvascomp): #
    print(long_des_cornes * hauteur_au_garot + poinds)
 ```
 </ul>
+
+<div align="right">
+    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
+</div>
 
 <a id="1-5"></a>
 
@@ -583,6 +600,10 @@ if secre_code != 64741:
 ```
 
 </ul>
+
+<div align="right">
+    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
+</div>
 
 <a id="1-6"></a>
 
@@ -721,6 +742,10 @@ print(posMinPrix)
 
 </ul>
 
+<div align="right">
+    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
+</div>
+
 <a id="1-7"></a>
 
 ## [7 – Advanced conditions, Boolean operators](#1-6)
@@ -837,6 +862,10 @@ print(nbMax)
 
 </ul>
 
+<div align="right">
+    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
+</div>
+
 <a id="1-8"></a>
 
 ## [8 – Conditioned repetitions](#1-8)
@@ -910,5 +939,8 @@ print(nbpierres)
   
 </ul>
 
-## BY SEBASTIEN XIA
+<div align="right">
+    <a href= "#table_contents"> <img src="https://images.emojiterra.com/google/android-nougat/512px/2b06.png" width="32" alt="UP"> </a>
+</div>
 
+## BY SEBASTIEN XIA
