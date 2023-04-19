@@ -837,17 +837,49 @@ print(nbMax)
   <li> <b> 6) Fire stations </b> </li>
   
 ```
-
+nbPaires = int(input())
+for loop in range(nbPaires):
+   xMin1 = int(input())
+   xMax1 = int(input())
+   yMin1 = int(input())
+   yMax1 = int(input())
+   xMin2 = int(input())
+   xMax2 = int(input())
+   yMin2 = int(input())
+   yMax2 = int(input())
+   if ( (xMax2 <= xMin1) or (xMax1 <= xMin2) ) or ( (yMax2 <= yMin1) or (yMax1 <= yMin2) ):
+      print("NON")
+   else:
+      print("OUI")
 ```
   <li> <b> 7) Missing person </b> </li>
   
 ```
-
+numeroPersonne = int(input())
+tailleListe = int(input())
+estSorti  = False
+for loop in range(tailleListe):
+   numero = int(input())
+   if numero == numeroPersonne:
+      estSorti = True
+if estSorti:
+   print("Sorti de la ville")
+else:
+   print("Encore dans la ville")
 ```
   <li> <b> 8) The Big Party </b> </li>
   
 ```
-
+espionDebut = int(input())
+espionFin = int(input())
+nbInvites = int(input())
+nbSuspects = 0
+for loop in range(nbInvites):
+   debut = int(input())
+   fin = int(input())
+   if not( (espionFin < debut) or (fin < espionDebut) ):
+      nbSuspects = nbSuspects + 1
+print(nbSuspects)
 ```
   <li> <b> 9) The spy is unmasked! </b> </li>
   
