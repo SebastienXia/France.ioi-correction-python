@@ -46,24 +46,44 @@ print(epaisseur_final)
 - <b> 2) Distance conversions </b>
 
 ```
+nblieux = float(input())
 
+print(nblieux / 0.707)
 ```
 - <b> 3) Price comparison </b>
 
 ```
+nb_legumes_vente = int(input())
 
+for legumes in range(nb_legumes_vente):
+    poids = float(input())
+    age = float(input())
+    prix = float(input())
+    prix_kg = prix / poids
+    print(prix_kg)
 ```
 - <b> 4) Average marks </b>
 
 ```
-
+nb_notes = int(input())
+total = 0
+for i in range(nb_notes):
+    note = int(input())
+    total += note
+moyenne = total / nb_notes
+print(moyenne)
 ```
 <a id = "A-2-1"></a>
 ## [A – Make roundings (lower and upper)](#A-2-1)
 - <b> A - 1) Population increase </b>
 
 ```
+population_actuelle_ville = int(input())
+croissance_population = float(input())
 
+nouvelle_population = int(population_actuelle_ville * (1 + croissance_population / 100))
+
+print(nouvelle_population)
 ```
 - <b> A - 2) Construction of houses </b>
 
