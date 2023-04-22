@@ -88,7 +88,12 @@ print(nouvelle_population)
 - <b> A - 2) Construction of houses </b>
 
 ```
+from math import *
 
+quantite_ciment_kg = float(input())
+nb_sacs_ciment = int(ceil(quantite_ciment_kg / 60))
+cout_tt = nb_sacs_ciment * 45
+print(cout_tt)
 ```
 <a id = "B-2-1"></a>
 ## [B – Make roundings (to nearest)](#B-2-1)
