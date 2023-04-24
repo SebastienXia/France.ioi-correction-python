@@ -100,7 +100,12 @@ print(cout_tt)
 - <b> B - 1) Stormy evening </b>
 
 ```
+temps = float(input())
 
+distance = temps * 340.29
+
+distance_km = round(distance / 1000)
+print(distance_km)
 ```
 - <b> B - 2) Tax increase </b>
 
