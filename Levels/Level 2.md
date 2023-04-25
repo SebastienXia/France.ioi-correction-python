@@ -110,7 +110,13 @@ print(distance_km)
 - <b> B - 2) Tax increase </b>
 
 ```
+taxe_actuelle = float(input())
+nouvelle_taxe = float(input())
+prix_actuel = float(input())
 
+prix_nouvelle_taxe = prix_actuel * (1 + nouvelle_taxe / 100) / (1 + taxe_actuelle / 100)
+
+print(round(prix_nouvelle_taxe, 2))
 ```
 <a id ="C-2-1"></a>
 ## [C – Basic Arithmetic](#C-2-1)
