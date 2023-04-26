@@ -123,7 +123,12 @@ print(round(prix_nouvelle_taxe, 2))
 - <b> C - 1) Purchase of books </b>
 
 ```
+somme_d_argent = int(input())
+prix_d_un_livre = int(input())
 
+nb_livre_achetable = somme_d_argent // prix_d_un_livre
+
+print(nb_livre_achetable)
 ```
 - <b> C - 2) A good harvest </b>
 
