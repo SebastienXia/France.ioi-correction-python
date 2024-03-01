@@ -1,4 +1,4 @@
-# ✔️ France ioi Correction Python
+z# ✔️ France ioi Correction Python
 Corrected exercise from france ioi python.
 
 <div align="center">
@@ -133,7 +133,13 @@ print(nb_livre_achetable)
 - <b> C - 2) A good harvest </b>
 
 ```
+nbPersonnes = int(input())
+nbFruits = int(input())
 
+if nbFruits % nbPersonnes == 0:
+    print("oui")
+else:
+    print("non")
 ```
 - <b> C - 3) The wheel of fortune </b>
 
